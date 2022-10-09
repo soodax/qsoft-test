@@ -135,10 +135,14 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    max-width: 287.5px;
+    max-height: 120px;
 }
 
 .content__image img {
     width: 100%;
+    max-width: 229.5px;
+    max-height: 62px;
 }
 
 @media (max-width: 1240px) {
@@ -179,6 +183,11 @@
     .logo img {
         width: 100%;
     }
+
+    .content__image img {
+        max-width: 171px;
+        max-height: 62px;
+    }
 }
 
 @media (max-width: 376px) {
@@ -218,6 +227,11 @@
 
     .content__container {
         max-width: none;
+    }
+
+    .content__image img {
+        max-width: 277px;
+        max-height: 82px;
     }
 
     .user {
